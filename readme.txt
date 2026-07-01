@@ -1,0 +1,3 @@
+source venv/bin/activate
+export GROQ_API_KEY=your_groq_api_key_here
+python basic_expense_tracker.py
