@@ -10,8 +10,9 @@ How to use:
 3. Click "Load CSV" and pick your file.
 4. Use the buttons to see charts, a summary, or chat with Groq.
 
-Before using the chat feature, set your Groq API key:
-    export GROQ_API_KEY=your_key_here
+Before using the chat feature, set your Groq API key.
+Create a file named ".env" in this same folder with this line inside it:
+    GROQ_API_KEY=your_key_here
 """
 
 import os
@@ -21,7 +22,10 @@ from tkinter import filedialog, messagebox
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from dotenv import load_dotenv
 from groq import Groq
+
+load_dotenv()  # reads the .env file and loads GROQ_API_KEY automatically
 
 
 # ------------------------------------------------------------------
