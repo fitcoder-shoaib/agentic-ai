@@ -9,7 +9,7 @@ export async function handler(event) {
   if (!apiKey) {
     return json(200, {
       mode: "local",
-      answer: "ThinkDesk AI is not connected yet. Add GROQ_API_KEY in Netlify environment variables to enable live AI responses.",
+      answer: "ThinkDesk is in local guidance mode right now. I can still review your uploaded finance summary and suggest practical next steps.",
     });
   }
 
@@ -51,7 +51,7 @@ export async function handler(event) {
 
     if (!response.ok) {
       const errorText = await response.text();
-      return json(502, { error: `Groq request failed: ${errorText}` });
+      return json(502, { error: `ThinkDesk request failed: ${errorText}` });
     }
 
     const data = await response.json();

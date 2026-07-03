@@ -219,7 +219,7 @@ function Hero({ onUpload, onSample, fileName }) {
       <div className="hero-copy">
         <div className="eyebrow">
           <Sparkles size={16} />
-          Netlify-ready finance intelligence
+          Secure finance intelligence
         </div>
         <h1>{APP_NAME}</h1>
         <p className="slogan">{SLOGAN}</p>
@@ -242,11 +242,11 @@ function Hero({ onUpload, onSample, fileName }) {
           <ShieldCheck size={22} />
           <span>Secure by design</span>
         </div>
-        <p>Your CSV analysis happens in the browser. ThinkDesk calls Groq only through a Netlify Function, so API keys stay off the frontend.</p>
+        <p>Your CSV analysis happens in the browser. ThinkDesk uses a protected assistant connection when live guidance is enabled, so private keys stay out of the app.</p>
         <div className="mini-grid">
           <span>Browser CSV</span>
-          <span>Netlify Function</span>
-          <span>Groq optional</span>
+          <span>Protected assistant</span>
+          <span>Live guidance</span>
           <span>Local fallback</span>
         </div>
       </div>
