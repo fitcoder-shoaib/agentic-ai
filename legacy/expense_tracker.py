@@ -5,10 +5,10 @@ Upload a CSV of bank or card transactions, normalize the data, visualize
 spending patterns, and get practical savings strategies. Optional Groq chat
 can answer questions from the generated financial snapshot.
 
-Setup:
-    pip install -r requirements.txt
+Setup from the project root:
+    pip install -r legacy/requirements.txt
     export GROQ_API_KEY=your_key_here   # optional
-    python expense_tracker.py
+    python legacy/expense_tracker.py
 """
 
 from __future__ import annotations

@@ -1,8 +1,8 @@
 """
 Finguide - modern Streamlit finance dashboard.
 
-Run:
-    streamlit run streamlit_app.py
+Run from the project root:
+    streamlit run legacy/streamlit_app.py
 """
 
 from __future__ import annotations

@@ -5,8 +5,8 @@ A simple beginner-friendly project.
 
 How to use:
 1. Make a CSV file with these columns: Date, Category, Description, Amount
-   (see sample_expenses_basic.csv for an example)
-2. Run this file: python basic_expense_tracker.py
+   (see examples/sample_expenses_basic.csv from the project root)
+2. Run this file: python legacy/basic_expense_tracker.py
 3. Click "Load CSV" and pick your file.
 4. Use the buttons to see charts, a summary, or chat with Groq.
 
